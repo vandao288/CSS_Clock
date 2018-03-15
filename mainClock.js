@@ -2,7 +2,7 @@ var hourHand = document.querySelector('.hour-hand');
 var minHand = document.querySelector('.min-hand');
 var secondHand = document.querySelector('.second-hand');
 
-function setDate() {
+function setTime() {
   var now = new Date();
 
   var hours = now.getHours();
@@ -19,4 +19,4 @@ function setDate() {
   console.log(hours + ':' + mins + ':' + seconds);
 }
 
-setInterval(setDate, 1000);
+setInterval(setTime, 1000);

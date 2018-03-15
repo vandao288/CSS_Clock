@@ -28,9 +28,10 @@ body {
   height: 100%;
   transform: translateY(-3px); /* account for the height of the clock hands */
 }
+
 .hand {
   width: 50%;
-  height: 6px;
+  height: 0.1rem;
   background: #D59E3D;
   position: absolute;
   top: 50%;
@@ -39,3 +40,33 @@ body {
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+
+.hour-hand {
+  width: 35%;
+  height: 1rem;
+  background: #D59E3D;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.min-hand {
+  width: 45%;
+  height: .8rem;
+  background: #A44404;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.second-hand {
+  width: 50%
+  height: .1rem;
+  background: #070404;
+  position: absolute;
+  top: 50%;
+}
+
+
+
+
